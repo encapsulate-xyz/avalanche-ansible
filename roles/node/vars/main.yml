@@ -1,0 +1,12 @@
+---
+# maintains file name, binary names, and anything which is not a directory or path
+
+# config file names
+node_config_file_name: config.yml
+
+node_signer_key_file_name: signer.key
+node_staker_key_file_name: staker.key
+node_staker_crt_file_name: staker.crt
+
+# binary names
+node_service_default_binary_name: avalanchego
