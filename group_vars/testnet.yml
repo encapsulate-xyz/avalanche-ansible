@@ -1,5 +1,0 @@
----
-# maintains versions and can overwrite all.yml
-avalanche:
-  validator:
-    version: v1.12.2

@@ -9,14 +9,14 @@ node_plugins_dir: "{{ node_home_dir }}/plugins"
 node_log_dir: "{{ node_home_dir }}/log"
 node_key_dir: "{{ node_home_dir }}/keys"
 
-node_chain_config_dir: "{{ node_config_dir }}/chain"
+node_chains_config_dir: "{{ node_config_dir }}/chains"
 node_chain_data_dir: "{{ node_data_dir }}/chaindata"
 
 node_directories:
   - "{{ node_home_dir }}"
   - "{{ node_bin_dir }}"
   - "{{ node_config_dir }}"
-  - "{{ node_chain_config_dir }}"
+  - "{{ node_chains_config_dir }}"
   - "{{ node_chain_data_dir }}"
   - "{{ node_data_dir }}"
   - "{{ node_plugins_dir }}"
