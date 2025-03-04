@@ -11,4 +11,5 @@ staking-tls-key-file: {{ node_staker_key_path }}
 public-ip: {{ ansible_default_ipv4.address }} 
 http-allowed-origins: {{ monitor_server_dns }}
 staking-port: {{ avalanche.validator.ports.staking_port }}
+http-host: 0.0.0.0
 http-port: {{ avalanche.validator.ports.http_port }}
