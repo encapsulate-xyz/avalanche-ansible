@@ -6,8 +6,8 @@ node_ufw_rules:
     from: any
     comment: staking_port
 
-  - port: "{{ avalanche.validator.ports.http_port }}"
-    proto: tcp
-    rule: allow
-    from: "{{ monitor_server_dns }}"
-    comment: http_port
+  # - port: "{{ avalanche.validator.ports.http_port }}"
+  #   proto: tcp
+  #   rule: allow
+  #   from: "{{ monitor_server_dns }}"
+  #   comment: http_port
